@@ -12,3 +12,54 @@ a{
     text-decoration: none;
     color:darkred;
 }
+
+/* HEADER */
+header{
+    backround: black;
+    color: white;
+    padding: 1em 2em;
+}
+
+header a{
+    color: white;
+}
+
+header {
+    display: grid;
+    grid-template-colums: 1fr 1fr;
+    align-items: center;
+}
+
+/*SITE ID*/
+.site-id h1 {
+    margin: 0;
+}
+
+/* SITE NAV*/
+nav ul {
+    display: flex;
+    justify-content: flex- end;
+    margin: 0;
+    padding-top: .6em;
+}
+
+nav li {
+    margin: 0;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 1em;
+}
+
+/*MAIN*/
+main{
+    padding: 0 0 3em 0;
+    min-height: 80vh;
+}
+
+/* SECTIONS*/
+section{
+    padding: 3em 1em;
+}
