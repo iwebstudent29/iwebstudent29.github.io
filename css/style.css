@@ -15,7 +15,7 @@ a{
 
 /* HEADER */
 header{
-    backround: black;
+    background: black;
     color: white;
     padding: 1em 2em;
 }
@@ -26,7 +26,7 @@ header a{
 
 header {
     display: grid;
-    grid-template-colums: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
@@ -62,4 +62,34 @@ main{
 /* SECTIONS*/
 section{
     padding: 3em 1em;
+}
+
+/* FOOTER*/ 
+footer {
+    border-top: 1px solid #ddd;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+footer nav ul {
+    justify-content: center
+}
+
+/* HERO */
+.hero { 
+    display: grid;
+    align-content: center;
+    text-align: center;
+    background: darkred;
+    min-height: 50vh;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.hero p {
+    margin: 1em auto;
 }
