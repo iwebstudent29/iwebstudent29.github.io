@@ -108,3 +108,9 @@ footer nav ul {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+/*SUB PAGES*/
+.page-sub .hero {
+    background: #00F2FF;
+    min-height: 30vh;
+}
